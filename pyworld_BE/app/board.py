@@ -7,5 +7,5 @@ ROUTER = APIRouter()
 
 
 @ROUTER.get("/")
-def get_hello():
-    return {"Hello": "World"}
+def get():
+    pass
